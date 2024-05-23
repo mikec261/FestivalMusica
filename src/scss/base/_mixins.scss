@@ -35,3 +35,9 @@
     grid-template-columns: repeat($columnas, 1fr);
     gap: $gap;
 }
+
+
+@mixin flexColumns {
+    display: grid;
+    flex-direction: column;
+}
