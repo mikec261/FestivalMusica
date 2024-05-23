@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.lineup {
+    background-color: v.$rosa;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        text-align: center;
+        color: v.$blanco;
+    }
+
+    .dia {
+        color: v.$blanco;
+        font-size: 3rem;
+    }
+}
