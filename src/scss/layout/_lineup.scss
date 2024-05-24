@@ -4,7 +4,8 @@
 .lineup {
     background-color: v.$rosa;
     display: flex;
-    flex-direction: column;
+
+    @include m.flexColumns;
 
     h3 {
         text-align: center;
@@ -14,5 +15,37 @@
     .dia {
         color: v.$blanco;
         font-size: 3rem;
+    }
+}
+
+
+.escenarios-contenedor {
+
+    @include m.grid(2);
+    font-size: 2rem;
+
+    .bg-amarillo {
+        background-color: v.$amarillo;
+    }
+
+    .bg-verde {
+        background-color: v.$verde;
+    }
+
+    .escenario .nombre-escenario {
+        font-size: 3rem;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+.calendario {
+
+    li {
+        font-weight: 800;
+    }
+
+    li span {
+        font-weight: 400;
     }
 }

@@ -526,7 +526,10 @@ body > section {
 .lineup {
   background-color: #F53756;
   display: flex;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .lineup h3 {
   text-align: center;
@@ -535,4 +538,29 @@ body > section {
 .lineup .dia {
   color: #FFFFFF;
   font-size: 3rem;
+}
+
+.escenarios-contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  font-size: 2rem;
+}
+.escenarios-contenedor .bg-amarillo {
+  background-color: #fdda00;
+}
+.escenarios-contenedor .bg-verde {
+  background-color: #4CB8B3;
+}
+.escenarios-contenedor .escenario .nombre-escenario {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.calendario li {
+  font-weight: 800;
+}
+.calendario li span {
+  font-weight: 400;
 }

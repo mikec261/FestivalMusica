@@ -37,7 +37,17 @@
 }
 
 
-@mixin flexColumns {
-    display: grid;
+@mixin flexColumns($alineacion : center, $justificacion : center) {
+    display: flex;
     flex-direction: column;
+    align-items: $alineacion;
+    justify-content: $justificacion;
+}
+
+@mixin flexRow($alineacion : center, $justificacion : center, $gap : 2rem) {
+    display: flex;
+    flex-direction: row;
+    align-items: $alineacion;
+    justify-content: $justificacion;
+    gap: $gap;
 }
