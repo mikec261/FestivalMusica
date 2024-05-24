@@ -546,20 +546,28 @@ body > section {
   gap: 5rem;
   font-size: 2rem;
 }
-.escenarios-contenedor .bg-amarillo {
-  background-color: #fdda00;
-}
-.escenarios-contenedor .bg-verde {
-  background-color: #4CB8B3;
-}
-.escenarios-contenedor .escenario .nombre-escenario {
+
+.escenario .nombre-escenario {
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
+  text-transform: uppercase;
 }
 
+.bg-amarillo {
+  background-color: #fdda00;
+}
+
+.bg-verde {
+  background-color: #4CB8B3;
+}
+
+.calendario {
+  list-style: none;
+}
 .calendario li {
   font-weight: 800;
+  padding: 2.5rem;
 }
 .calendario li span {
   font-weight: 400;

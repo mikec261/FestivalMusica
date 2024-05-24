@@ -20,32 +20,38 @@
 
 
 .escenarios-contenedor {
-
     @include m.grid(2);
     font-size: 2rem;
+}
 
-    .bg-amarillo {
-        background-color: v.$amarillo;
-    }
+.escenario {
 
-    .bg-verde {
-        background-color: v.$verde;
-    }
-
-    .escenario .nombre-escenario {
+    .nombre-escenario {
         font-size: 3rem;
         font-weight: 900;
         text-align: center;
+        text-transform: uppercase;
     }
+}
+
+.bg-amarillo {
+    background-color: v.$amarillo;
+}
+
+.bg-verde {
+    background-color: v.$verde;
 }
 
 .calendario {
 
+    @include m.resetearTabla;
+
     li {
         font-weight: 800;
-    }
+        padding: 2.5rem;
 
-    li span {
-        font-weight: 400;
+        span {
+            font-weight: 400;
+        }
     }
 }

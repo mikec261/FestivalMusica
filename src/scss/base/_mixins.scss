@@ -51,3 +51,7 @@
     justify-content: $justificacion;
     gap: $gap;
 }
+
+@mixin resetearTabla {
+    list-style: none;
+}
