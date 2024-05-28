@@ -1,13 +1,13 @@
 @use 'base/variables' as v;
-@use 'base/mixins' as m;
 
-.foter-pagina {
+.footer-body {
     background-color: v.$rosa;
-    padding: 1rem 0;
+    padding: 2rem 0;
 
     p {
+        margin: 0;
         font-size: 3rem;
-        text-align: center;
         color: v.$blanco;
+        text-align: center;
     }
 }

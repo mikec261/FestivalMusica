@@ -663,12 +663,13 @@ body > section {
   background-color: #391749;
 }
 
-.foter-pagina {
+.footer-body {
   background-color: #F53756;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
-.foter-pagina p {
+.footer-body p {
+  margin: 0;
   font-size: 3rem;
-  text-align: center;
   color: #FFFFFF;
+  text-align: center;
 }
