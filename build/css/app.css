@@ -662,3 +662,13 @@ body > section {
 .pase-footer p:hover {
   background-color: #391749;
 }
+
+.foter-pagina {
+  background-color: #F53756;
+  padding: 1rem 0;
+}
+.foter-pagina p {
+  font-size: 3rem;
+  text-align: center;
+  color: #FFFFFF;
+}
