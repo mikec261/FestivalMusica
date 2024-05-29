@@ -44,6 +44,16 @@
     }
 }
 
+.btn-cerrar {
+    height: 4rem;
+    width: 4rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    color: v.$negro;
+    cursor: pointer;
+    font-weight: 800;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
